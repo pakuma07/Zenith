@@ -1,0 +1,51 @@
+# Data Structures Exercises
+
+Chapter-style exercise sets for each data structure topic.
+
+## How to Use
+
+1. Read the theory chapter first.
+2. Solve Easy -> Medium -> Hard in order.
+3. Implement in C++11 without using STL shortcuts first.
+4. Then solve again with STL for comparison.
+
+## Exercise Chapters
+
+1. arrays_vectors_exercises.md
+2. linked_lists_exercises.md
+3. stack_queue_deque_exercises.md
+4. hash_tables_exercises.md
+5. binary_tree_exercises.md
+6. bst_exercises.md
+7. avl_tree_exercises.md
+8. heap_exercises.md
+9. trie_exercises.md
+10. graph_representation_exercises.md
+11. graph_traversal_exercises.md
+12. dsu_exercises.md
+13. fenwick_tree_exercises.md
+14. segment_tree_exercises.md
+
+## Suggested Pace
+
+- 1 chapter per day
+- Revisit failed problems after 48 hours
+- Keep a notebook of edge cases and bugs
+
+## C++11 Exercise Driver
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve() {
+    // Implement one selected data-structure exercise.
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    solve();
+    return 0;
+}
+```
